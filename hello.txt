@@ -1,0 +1,7 @@
+code=input("Enter yor code")
+if code=="BE THE ONLY ONE":
+    print("welcome")
+    print("hi,Kritich ,how are you doing?")
+    print("welcome sir")
+else:
+    print("access denied")
