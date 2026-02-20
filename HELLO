@@ -1,0 +1,25 @@
+import webbrowser
+
+user = input("who are you? ")
+
+if user == "kritich":
+    print("Let's see if you are really kritich or just calling himself kritich")
+else:
+    print("you have to give the code")
+
+code = input("Enter your code: ")
+
+if code == "BE THE ONLY ONE":
+    print("welcome")
+    print("hi, Kritich, how are you doing?")
+    print("welcome to your secret arena")
+    
+    a = input("what do you want to do? ")
+    
+    if a == "research":
+        search = input("What do you want to search on Google? ")
+        print("okay, sir...")
+        # This opens the actual search results for what you typed
+        webbrowser.open("https://www.google.com/search?q=" + search)
+else:
+    print("access denied")
